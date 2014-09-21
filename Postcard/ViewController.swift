@@ -10,12 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var messageLabel: UILabel!
-
     @IBOutlet weak var enterNameTextField: UITextField!
-    
     @IBOutlet weak var enterAMessageTextField: UITextField!
-    
     @IBOutlet weak var mailButton: UIButton!
     
     override func viewDidLoad() {
@@ -31,12 +29,16 @@ class ViewController: UIViewController {
     @IBAction func sendMailButtonPressed(sender: UIButton) {
         // Code will evaluate when we press the button
         messageLabel.hidden = false
+        nameLabel.hidden = false
         messageLabel.text = enterAMessageTextField.text
+        nameLabel.text = enterNameTextField.text
         enterAMessageTextField.text = ""
+        enterNameTextField.text = ""
         enterAMessageTextField.resignFirstResponder()
+        enterNameTextField.resignFirstResponder()
         messageLabel.textColor = UIColor.redColor()
+        nameLabel.textColor = UIColor.blueColor()
         mailButton.setTitle("Mail Sent", forState: UIControlState.Normal)
     }
-
 }
 
