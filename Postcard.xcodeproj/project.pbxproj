@@ -11,8 +11,9 @@
 		5120E50B19CB730400506019 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5120E50A19CB730400506019 /* ViewController.swift */; };
 		5120E50E19CB730400506019 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5120E50C19CB730400506019 /* Main.storyboard */; };
 		5120E51019CB730400506019 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5120E50F19CB730400506019 /* Images.xcassets */; };
-		5120E51319CB730400506019 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5120E51119CB730400506019 /* LaunchScreen.xib */; };
 		5120E51F19CB730500506019 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5120E51E19CB730500506019 /* PostcardTests.swift */; };
+		5148E39C19CCD161002D4D1D /* SagradaFamilia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5148E39B19CCD161002D4D1D /* SagradaFamilia.jpeg */; };
+		5148E39E19CCDAED002D4D1D /* AlbertEinsteinStamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5148E39D19CCDAED002D4D1D /* AlbertEinsteinStamp.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,10 +33,11 @@
 		5120E50A19CB730400506019 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5120E50D19CB730400506019 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5120E50F19CB730400506019 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5120E51219CB730400506019 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5120E51819CB730500506019 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5120E51D19CB730500506019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5120E51E19CB730500506019 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		5148E39B19CCD161002D4D1D /* SagradaFamilia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SagradaFamilia.jpeg; sourceTree = "<group>"; };
+		5148E39D19CCDAED002D4D1D /* AlbertEinsteinStamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlbertEinsteinStamp.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +83,6 @@
 				5120E50A19CB730400506019 /* ViewController.swift */,
 				5120E50C19CB730400506019 /* Main.storyboard */,
 				5120E50F19CB730400506019 /* Images.xcassets */,
-				5120E51119CB730400506019 /* LaunchScreen.xib */,
 				5120E50619CB730400506019 /* Supporting Files */,
 			);
 			path = Postcard;
@@ -90,6 +91,8 @@
 		5120E50619CB730400506019 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5148E39D19CCDAED002D4D1D /* AlbertEinsteinStamp.jpg */,
+				5148E39B19CCD161002D4D1D /* SagradaFamilia.jpeg */,
 				5120E50719CB730400506019 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,8 +195,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5148E39E19CCDAED002D4D1D /* AlbertEinsteinStamp.jpg in Resources */,
 				5120E50E19CB730400506019 /* Main.storyboard in Resources */,
-				5120E51319CB730400506019 /* LaunchScreen.xib in Resources */,
+				5148E39C19CCD161002D4D1D /* SagradaFamilia.jpeg in Resources */,
 				5120E51019CB730400506019 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,14 +246,6 @@
 				5120E50D19CB730400506019 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5120E51119CB730400506019 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5120E51219CB730400506019 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -405,6 +401,7 @@
 				5120E52419CB730500506019 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5120E52519CB730500506019 /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +410,7 @@
 				5120E52719CB730500506019 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
